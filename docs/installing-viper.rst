@@ -77,6 +77,15 @@ To create a new virtual environment for Viper run the following commands:
 ::
     virtualenv -p /usr/local/lib/python3.6/bin/python --no-site-packages ~/viper-venv
     source ~/viper-venv/bin/activate
+    
+If you are using Anaconda run:
+::
+    conda create -n viper python=3.6
+    source activate viper
+    
+To deactivate the environment simply run:
+::
+    source deactivate
 
 To find out more about virtual environments, check out:
 `virtualenv guide <https://virtualenv.pypa.io/en/stable/>`_.
